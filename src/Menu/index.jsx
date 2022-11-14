@@ -17,9 +17,18 @@ function Menu() {
         </p>
         <hr />
         <div className="media-social">
-          <img src={imagesLogo.linkedin} alt="linkedin" />
-          <img src={imagesLogo.github} alt="github" />
-          <img src={imagesLogo.instagram} alt="instagram" />
+          <a
+            href="https://www.linkedin.com/in/diego-toledo-64a356241/"
+            target="_blank"
+          >
+            <img src={imagesLogo.linkedin} alt="linkedin" />
+          </a>
+          <a href="https://github.com/diegotoledo13" target="_blank">
+            <img src={imagesLogo.github} alt="github" />
+          </a>
+          <a href="https://www.instagram.com/diegokill_lp/" target="_blank">
+            <img src={imagesLogo.instagram} alt="instagram" />
+          </a>
         </div>
         <hr />
         <div className="main-menu">
