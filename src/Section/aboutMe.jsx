@@ -25,7 +25,7 @@ function AboutMe() {
       </div>
       <div className="download-button">
         <p>Puedes descargar mi CV aquí</p>
-        <a href="/DiegoCV.pdf" download={""}>
+        <a href="/Diego CV.pdf" download={""}>
           <button>Descarga</button>{" "}
         </a>
       </div>
