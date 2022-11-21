@@ -14,7 +14,7 @@
   color: white;
 }
 
-.card:hover{
+.card:hover {
   height: 254px;
   transform: skew(0deg);
 }
@@ -26,13 +26,13 @@
   align-self: flex-start;
 }
 .card p {
-    margin: 0px;
-    padding: 2px;
-    text-align: center;
-    color: #000000;
-    text-shadow: -10px 5px 10px rgba(0, 0, 0, 0.573);
+  margin: 0px;
+  padding: 2px;
+  text-align: center;
+  color: #000000;
+  text-shadow: -10px 5px 10px rgba(0, 0, 0, 0.573);
 }
-.card img{
-    height: 160px;
-    width: 260px;
+.card img {
+  height: 160px;
+  width: 260px;
 }

@@ -16,12 +16,14 @@ export const Cards = (props) => {
           <p>{batataBite.title}</p>
         </div>
         <img src={batataBite.imagenBatata} alt="Batatabit" srcset="" />
+        <a href="https://github.com/diegotoledo13/Batatabit">Batatabit</a>
       </div>
       <div class="card">
         <div class="align">
           <p>{todoMachine.title}</p>
         </div>
         <img src={todoMachine.imagenTodos} alt="todomachine" srcset="" />
+        <a href="https://github.com/diegotoledo13/todomachine">TodoMachine</a>
       </div>
       <div class="card">
         <div class="align">
@@ -40,6 +42,7 @@ export const Cards = (props) => {
           <p>{saleHtml.title}</p>
         </div>
         <img src={saleHtml.imagenSaleHtml} alt="salehtml" srcset="" />
+        <a href="https://github.com/diegotoledo13/PracticoDeCSS">SaleHTML</a>
       </div>
       <div class="card">
         <div class="align">

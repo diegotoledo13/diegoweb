@@ -17,8 +17,6 @@ function AboutMe() {
           <p>Maldonado - Uruguay</p>
           <img src={imagesLogo.mail} alt="mail" />
           <p>diego.toledo.sanchez13@gmail.com</p>
-          <img src={imagesLogo.call} alt="phone" />
-          <p>+5989818265</p>
           <img src={imagesLogo.linkedin} alt="linkedin" />
           <p>https://www.linkedin.com/in/diego-toledo-64a356241/</p>
         </div>

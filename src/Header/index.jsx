@@ -12,7 +12,7 @@ function Header() {
       <div className="title-name-me">
         <h3>Diego Toledo</h3>
         <p>Frontend Developer</p>
-        <img src={imagen.diegoPic} alt="diego" />
+        <img src={imagen.dieguito} alt="diego" />
       </div>
       <HashRouter>
         <Routes>
