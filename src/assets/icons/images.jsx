@@ -17,6 +17,7 @@ import postMan from "../icons/postMan.png";
 import sassIcon from "../icons/sass.png";
 import reactLogo2 from "../icons/react.svg";
 import portfolio from "../icons/portfolio.png";
+import www from "../icons/www.png";
 
 const imagesLogo = {
   reactLogo2,
@@ -38,6 +39,7 @@ const imagesLogo = {
   postMan,
   sassIcon,
   portfolio,
+  www,
 };
 
 export default imagesLogo;

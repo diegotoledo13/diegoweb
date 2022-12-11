@@ -29,6 +29,9 @@ export const Cards = (props) => {
         <a href="https://github.com/diegotoledo13/todomachine" target="_blank">
           <img className="icon-card" src={imagesLogo.github} alt="" srcset="" />
         </a>
+        <a href="https://diegotoledo13.github.io/todomachine/" target="_blank">
+          <img className="icon-card" src={imagesLogo.www} alt="" srcset="" />
+        </a>
       </div>
       <div class="card">
         <div class="align">
@@ -41,6 +44,9 @@ export const Cards = (props) => {
           <p>{gifExpert.title}</p>
         </div>
         <img src={gifExpert.imagenGif} alt="gifexpert" srcset="" />
+        <a href="https://gif-expert-diego.netlify.app/" target="_blank">
+          <img className="icon-card" src={imagesLogo.www} alt="" srcset="" />
+        </a>
       </div>
       <div class="card">
         <div class="align">

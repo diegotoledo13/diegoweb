@@ -20,9 +20,8 @@
 .card .icon-card{
   width: 40px;
   height: 40px;
-  position: fixed;
-  left: 105px;
-  top: 195px;
+  position: static;
+  margin-left: 60px;
 }
 
 .align {
