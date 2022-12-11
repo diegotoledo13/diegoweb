@@ -4,7 +4,12 @@ import { Cards } from "../Cards";
 function Portfolio() {
   return (
     <div className="main-portfolio">
-      <img src={imagesLogo.portfolio} alt="portfolioicon" srcset="" />
+      <img
+        className="icon-portoflio"
+        src={imagesLogo.portfolio}
+        alt="portfolioicon"
+        srcset=""
+      />
       <p>Portfolio</p>
       <Cards />
     </div>

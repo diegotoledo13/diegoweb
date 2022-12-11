@@ -7,6 +7,7 @@ import {
   todoMachine,
 } from "./datacard";
 import "./cards.css";
+import imagesLogo from "../assets/icons/images";
 
 export const Cards = (props) => {
   return (
@@ -16,14 +17,18 @@ export const Cards = (props) => {
           <p>{batataBite.title}</p>
         </div>
         <img src={batataBite.imagenBatata} alt="Batatabit" srcset="" />
-        <a href="https://github.com/diegotoledo13/Batatabit">Batatabit</a>
+        <a href="https://github.com/diegotoledo13/Batatabit" target="_blank">
+          <img className="icon-card" src={imagesLogo.github} alt="" srcset="" />
+        </a>
       </div>
       <div class="card">
         <div class="align">
           <p>{todoMachine.title}</p>
         </div>
         <img src={todoMachine.imagenTodos} alt="todomachine" srcset="" />
-        <a href="https://github.com/diegotoledo13/todomachine">TodoMachine</a>
+        <a href="https://github.com/diegotoledo13/todomachine" target="_blank">
+          <img className="icon-card" src={imagesLogo.github} alt="" srcset="" />
+        </a>
       </div>
       <div class="card">
         <div class="align">
@@ -42,7 +47,12 @@ export const Cards = (props) => {
           <p>{saleHtml.title}</p>
         </div>
         <img src={saleHtml.imagenSaleHtml} alt="salehtml" srcset="" />
-        <a href="https://github.com/diegotoledo13/PracticoDeCSS">SaleHTML</a>
+        <a
+          href="https://github.com/diegotoledo13/PracticoDeCSS"
+          target="_blank"
+        >
+          <img className="icon-card" src={imagesLogo.github} alt="" srcset="" />
+        </a>
       </div>
       <div class="card">
         <div class="align">

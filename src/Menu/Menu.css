@@ -113,5 +113,6 @@ button:hover {
 @media (min-width: 1024px) {
   .menu-main-header {
     width: 23%;
+    height: 1050px;
   }
 }
